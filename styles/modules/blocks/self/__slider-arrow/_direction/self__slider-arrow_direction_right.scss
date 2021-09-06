@@ -1,0 +1,9 @@
+.self__slider-arrow_direction_right {
+    background-image: url('../images/self/__slider-arrow/right-arrow.svg');
+    top: 40px;
+    right: 10px;
+}
+
+.self__slider-arrow_direction_right:hover {
+    transform: translateX(10px);
+}

@@ -1,0 +1,10 @@
+.call__link {
+    color: rgba(240, 133, 26, 1);
+    text-decoration-color: rgba(240, 133, 26, .3);
+    text-underline-offset: 3px;
+    transition: opacity .3s ease-out;
+}
+
+.call__link:hover {
+    opacity: .7;
+}

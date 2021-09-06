@@ -1,0 +1,6 @@
+.header__heading {
+    @include heading-1;
+    color: $primaryColor;
+    width: 580px;
+    padding-top: 143px;
+}

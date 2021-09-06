@@ -1,0 +1,19 @@
+.safety__list-element {
+    @include paragraph-big;
+    color: $secondaryColor;
+    font-weight: 400;
+    line-height: 34px;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.safety__list-element::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #f0851a;
+    border-radius: 3px;
+    left: -16px;
+    top: 16px;
+}

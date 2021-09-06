@@ -1,0 +1,6 @@
+.credit__text {
+    @include paragraph-big;
+    color: $secondaryColor;
+    font-weight: 300;
+    padding: 41px 0 50px;
+}

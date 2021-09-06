@@ -1,0 +1,7 @@
+.header__call-text {
+    @include paragraph-small;
+    color: $secondaryColor;
+    font-weight: 300;
+    width: 407px;
+    padding-right: 21px;
+}

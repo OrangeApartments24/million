@@ -1,0 +1,97 @@
+@import '../vendor/normalize.css';
+@import '../vendor/fonts.css';
+@import './modules/variables.scss';
+@import './modules/mixins.scss';
+
+@import './modules/blocks/root/root.scss';
+
+@import './modules/blocks/header/header.scss';
+@import './modules/blocks/header/__hero/header__hero.scss';
+@import './modules/blocks/header/__logo/header__logo.scss';
+@import './modules/blocks/header/__heading/header__heading.scss';
+@import './modules/blocks/header/__heading/_dark/header__heading_dark.scss';
+@import './modules/blocks/header/__image/header__image.scss';
+@import './modules/blocks/header/__info/header__info.scss';
+@import './modules/blocks/header/__social/header__social.scss';
+@import './modules/blocks/header/__social-item/header__social-item.scss';
+@import './modules/blocks/header/__social-link/header__social-item-link.scss';
+@import './modules/blocks/header/__social-item-image/header__social-item-image.scss';
+@import './modules/blocks/header/__call/hedaer__call.scss';
+@import './modules/blocks/header/__call-text/header__call-text.scss';
+@import './modules/blocks/header/__call-button/header__call-button.scss';
+
+@import './modules/blocks/credit/credit.scss';
+@import './modules/blocks/credit/__info/credit__info.scss';
+@import './modules/blocks/credit/__heading/credit__heading.scss';
+@import './modules/blocks/credit/__text/credit__text.scss';
+@import './modules/blocks/credit/__text/_accept/credit__text_accept.scss';
+@import './modules/blocks/credit/__icon/credit__icon.scss';
+@import './modules/blocks/credit/__caption/credit__caption.scss';
+@import './modules/blocks/credit/__infographic/credit__infographic.scss';
+@import './modules/blocks/credit/__infographic-grid/credit__infographic-grid.scss';
+@import './modules/blocks/credit/__infographic-grid-el/credit__infographic-grid-el.scss';
+@import './modules/blocks/credit/__infographic-caption/credit__infographic-caption.scss';
+@import './modules/blocks/credit/__infographic-caption-text/credit__infographic-caption-text.scss';
+@import './modules/blocks/credit/__infographic-caption-image/credit__infographic-caption-image.scss';
+
+@import './modules/blocks/safety/safety.scss';
+@import './modules/blocks/safety/__info/safety__info.scss';
+@import './modules/blocks/safety/__heading/safety__heading.scss';
+@import './modules/blocks/safety/__image/safety__image.scss';
+@import './modules/blocks/safety/__list/safety__list.scss';
+@import './modules/blocks/safety/__list-element/safety__list-element.scss';
+
+@import './modules/blocks/old/old.scss';
+@import './modules/blocks/old/__info/old__info.scss';
+@import './modules/blocks/old/__heading/old__heading.scss';
+@import './modules/blocks/old/__text/old__text.scss';
+@import './modules/blocks/old/__list/old__list.scss';
+@import './modules/blocks/old/__list-element/old__list-element.scss';
+@import './modules/blocks/old/__caption/old__caption.scss';
+@import './modules/blocks/old/__image/old__image.scss';
+
+@import './modules/blocks/self/self.scss';
+@import './modules/blocks/self/__heading/self__heading.scss';
+@import './modules/blocks/self/__slider/self__slider.scss';
+@import './modules/blocks/self/__slider-arrow/self__slider-arrow.scss';
+@import './modules/blocks/self/__slider-arrow/_direction/self__slider-arrow_direction_left.scss';
+@import './modules/blocks/self/__slider-arrow/_direction/self__slider-arrow_direction_right.scss';
+@import './modules/blocks/self/__slider-caption/self__slider-caption.scss';
+@import './modules/blocks/self/__slider-image/self__slider-image.scss';
+
+@import './modules/blocks/features/features.scss';
+@import './modules/blocks/features/__item/features__item.scss';
+@import './modules/blocks/features/__item-icon/features__item-icon.scss';
+@import './modules/blocks/features/__item-text/features__item-text.scss';
+
+@import './modules/blocks/contract/contract.scss';
+@import './modules/blocks/contract/__info/contract__info.scss';
+@import './modules/blocks/contract/__heading/contract__heading.scss';
+@import './modules/blocks/contract/__text/contract__text.scss';
+@import './modules/blocks/contract/__text/_accept/contract__text_accept.scss';
+@import './modules/blocks/contract/__image/contract__image.scss';
+@import './modules/blocks/contract/__button/contract__button.scss';
+
+@import './modules/blocks/faq/faq.scss';
+@import './modules/blocks/faq/__item/faq__item.scss';
+@import './modules/blocks/faq/__item/_opened/faq__item_opened.scss';
+@import './modules/blocks/faq/__item-heading/faq__item-heading.scss';
+@import './modules/blocks/faq/__item-text/faq__item-text.scss';
+@import './modules/blocks/faq/__item-text/_opened/faq__item-text_opened.scss';
+
+@import './modules/blocks/call/call.scss';
+@import './modules/blocks/call/__heading/call__heading.scss';
+@import './modules/blocks/call/__form/call__form.scss';
+@import './modules/blocks/call/__textfield/call__textfield.scss';
+@import './modules/blocks/call/__button/call__button.scss';
+@import './modules/blocks/call/__caption/call__caption.scss';
+@import './modules/blocks/call/__link/call__link.scss';
+
+@import './modules/blocks/footer/footer.scss';
+@import './modules/blocks/footer/__solovev/footer__solovev.scss';
+@import './modules/blocks/footer/__solovev-image/footer__solovev-image.scss';
+@import './modules/blocks/footer/__orange/footer__orange.scss';
+@import './modules/blocks/footer/__orange-image/footer__orange-image.scss';
+@import './modules/blocks/footer/__link/footer__link.scss';
+@import './modules/blocks/footer/__text/footer__text.scss';
+@import './modules/blocks/footer/__text/_bold/footer__text_bold.scss';

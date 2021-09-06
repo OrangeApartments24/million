@@ -1,0 +1,9 @@
+.self__heading {
+    @include heading-2;
+    font-weight: 500;
+    color: $primaryColor;
+    max-width: 500px;
+    position: relative;
+    top: 10px;
+    left: 2px;
+}

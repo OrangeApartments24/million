@@ -1,0 +1,5 @@
+.faq__item-heading {
+    @include heading-3;
+    color: $primaryColor;
+    padding-bottom: 20px;
+}

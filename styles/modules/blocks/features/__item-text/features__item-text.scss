@@ -1,0 +1,7 @@
+.features__item-text {
+    @include paragraph-big;
+    font-weight: 300;
+    padding-top: 50px;
+    line-height: 31px;
+    color: $secondaryColor;
+}

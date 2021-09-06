@@ -1,0 +1,8 @@
+.header {
+    max-width: $containerWidth;
+    padding: 0px 0px 124px $sideOffset;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px 0;
+}

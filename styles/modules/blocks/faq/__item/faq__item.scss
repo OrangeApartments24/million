@@ -1,0 +1,15 @@
+.faq__item {
+    border-bottom: 1px solid $primaryColor;
+    padding: 26px 2px 7px;
+    cursor: pointer;
+    transition: all .1s ease-out;
+    overflow: hidden;
+}
+
+.faq__item:first-of-type {
+    border-top: 1px solid $primaryColor;
+}
+
+.faq__item:hover {
+    background: rgba(240, 133, 26, .05);
+}

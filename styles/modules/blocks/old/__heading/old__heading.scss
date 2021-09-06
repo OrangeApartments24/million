@@ -1,0 +1,5 @@
+.old__heading {
+    @include heading-2;
+    color: $primaryColor;
+    padding-top: 1px;
+}

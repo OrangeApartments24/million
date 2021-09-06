@@ -1,0 +1,9 @@
+.features {
+    display: grid;
+    max-width: $containerWidth;
+    padding: 0 $sideOffset;
+    box-sizing: border-box;
+    grid-template-columns: repeat(auto-fit, minmax(337px, 1fr));
+    grid-gap: 108px 133px;
+    align-items: baseline;
+}

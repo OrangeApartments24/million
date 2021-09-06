@@ -1,0 +1,9 @@
+.header__call-button {
+    @include button;
+    transition: all .4s ease-out;
+}
+
+.header__call-button:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 100px rgba(240, 133, 27, 0.9);;
+}

@@ -1,0 +1,9 @@
+.self__slider-caption {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    @include paragraph-tiny;
+    color: $secondaryColor;
+    top: 72px;
+    font-weight: 300;
+}

@@ -1,0 +1,5 @@
+.call__heading {
+    @include heading-2;
+    color: $primaryColor;
+    text-align: center;
+}

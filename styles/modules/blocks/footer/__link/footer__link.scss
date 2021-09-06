@@ -1,0 +1,14 @@
+.footer__link {
+    @include paragraph-tiny;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    text-decoration-color: rgba(0,0,0, .2);
+    text-underline-offset: 3px;
+    color: $secondaryColor;
+    transition: opacity .2s ease-out;
+}
+
+.footer__link:hover {
+    opacity: .6;
+}

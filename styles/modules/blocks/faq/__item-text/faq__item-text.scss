@@ -1,0 +1,8 @@
+.faq__item-text {
+    @include paragraph-big;
+    font-weight: 300;
+    color: $secondaryColor;
+    height: 0px;
+    opacity: 0;
+    pointer-events: none;
+}

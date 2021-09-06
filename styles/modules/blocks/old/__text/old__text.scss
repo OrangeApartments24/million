@@ -1,0 +1,7 @@
+.old__text {
+    @include paragraph-small;
+    color: $secondaryColor;
+    font-weight: 300;
+    max-width: 450px;
+    padding: 27px 0 0 2px;
+}

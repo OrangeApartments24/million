@@ -1,0 +1,6 @@
+.contract__text {
+    @include paragraph-big;
+    color: $secondaryColor;
+    font-weight: 300;
+    padding: 41px 0 49px 4px;
+}

@@ -1,0 +1,7 @@
+.credit__infographic-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 597px;
+    grid-gap: 22px 39px;
+    padding: 42px 0 0 15px;
+}

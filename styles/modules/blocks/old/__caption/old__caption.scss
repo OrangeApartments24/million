@@ -1,0 +1,6 @@
+.old__caption {
+    padding: 140px 0 0 2px;
+    @include paragraph-small;
+    color: $secondaryColor;
+    font-weight: 300;
+}

@@ -1,0 +1,7 @@
+.safety {
+    padding: 0 $sideOffset;
+    max-width: $containerWidth;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}

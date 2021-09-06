@@ -1,0 +1,17 @@
+.credit__caption {
+    @include paragraph-small;
+    font-weight: 300;
+    max-width: 322px;
+    padding-top: 17px;
+    position: relative;
+}
+
+.credit__caption:after {
+    content: '';
+    position: absolute;
+    width: 320px;
+    height: 1px;
+    bottom: 7px;
+    left: 320px;
+    background: rgba(28, 28, 28, 0.25);
+}

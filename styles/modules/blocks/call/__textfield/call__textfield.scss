@@ -1,0 +1,28 @@
+.call__textfield {
+    background: transparent;
+    border: 1px solid $primaryColor;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: $primaryColor;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 21px 37px 20px 36px;
+    min-width: 325px;
+    margin-right: 15px;
+    outline: none;
+    transition: all .2s ease-out;
+}
+
+.call__textfield::placeholder {
+    color: rgba(240, 133, 26, .2);;
+}
+
+.call__textfield:last-of-type {
+    margin-right: 50px;
+}
+
+.call__textfield:focus {
+    border-color: rgba(240, 133, 26, .5);;
+}

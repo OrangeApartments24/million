@@ -1,0 +1,7 @@
+.footer__text {
+    @include paragraph-tiny;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 39px 0 0;
+}

@@ -1,0 +1,18 @@
+.old__list-element {
+    @include paragraph-big;
+    font-weight: 400;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.old__list-element::before {
+    content: '';
+    left: -36px;
+    top: 6px;
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    background: url('../images/old/__list-element/check.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
