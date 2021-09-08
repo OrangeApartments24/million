@@ -1,8 +1,30 @@
 .header {
+    margin: 0 auto;
     max-width: $containerWidth;
-    padding: 0px 0px 124px $sideOffset;
+    padding: 0px 0px 74px $sideOffset;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 35px 0;
+    position: relative;
+}
+
+@media screen and (max-width: 1280px) {
+    .header {
+        padding: 0 0 74px $sideOffsetMedium;
+        grid-gap: 20px 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .header {
+        padding: 0 0 10px $sideOffsetSmall;
+    }
 }

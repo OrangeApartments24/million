@@ -1,0 +1,13 @@
+@media screen and (max-width: 970px) {
+    .contract__image {
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .contract__image {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -7,3 +7,9 @@
     top: 72px;
     font-weight: 300;
 }
+
+@media screen and (max-width: 560px) {
+    .self__slider-caption {
+        top: 54px;
+    }
+}

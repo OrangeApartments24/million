@@ -3,3 +3,21 @@
     color: $primaryColor;
     padding-top: 1px;
 }
+
+@media screen and (max-width: 1280px) {
+    .old__heading {
+        @include heading-2-medium;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .old__heading {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .old__heading {
+        @include heading-2-small;
+    }
+}

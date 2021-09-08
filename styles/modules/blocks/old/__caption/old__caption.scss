@@ -4,3 +4,16 @@
     color: $secondaryColor;
     font-weight: 300;
 }
+
+@media screen and (max-width: 1280px) {
+    .old__caption {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .old__caption {
+        padding-top: 35px;
+        @include paragraph-tiny;
+    }
+}

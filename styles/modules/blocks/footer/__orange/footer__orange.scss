@@ -3,3 +3,10 @@
     flex-direction: column;
     align-items: flex-end;
 }
+
+@media screen and (max-width: 660px) {
+    .footer__orange {
+        align-items: flex-start;
+        padding-top: 50px;
+    }
+}

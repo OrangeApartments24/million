@@ -1,4 +1,5 @@
 .features {
+    margin: 0 auto;
     display: grid;
     max-width: $containerWidth;
     padding: 0 $sideOffset;
@@ -6,4 +7,18 @@
     grid-template-columns: repeat(auto-fit, minmax(337px, 1fr));
     grid-gap: 108px 133px;
     align-items: baseline;
+}
+
+@media screen and (max-width: 1280px) {
+    .features {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-gap: 70px 30px;
+        padding: 0 $sideOffsetMedium;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .features {
+        padding: 0 $sideOffsetSmall;
+    }
 }

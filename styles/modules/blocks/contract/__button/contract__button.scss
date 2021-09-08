@@ -20,3 +20,29 @@
     transform: scale(1.02);
     box-shadow: 0px 0px 100px rgba(240, 133, 27, 0.9);;
 }
+
+@media screen and (max-width: 1110px) {
+    .contract__button {
+        @include button-medium;
+        padding-right: 60px;
+        padding-left: 25px;
+    }
+    .contract__button::after {
+        top: 17px;
+        right: 18px;
+        width: 30px;
+        height: 30px;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .contract__button {
+        @include button-medium;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .contract__button::after {
+        display: none;
+    }
+}

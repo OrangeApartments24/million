@@ -7,3 +7,31 @@
     top: 10px;
     left: 2px;
 }
+
+@media screen and (max-width: 1280px) {
+    .self__heading {
+        @include heading-2-medium;
+        padding: 50px $sideOffsetMedium 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .self__heading {
+        max-width: 100%;
+        padding: 50px 0 0;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .self__heading {
+        padding: 50px $sideOffsetSmall 0;
+        @include heading-2-small;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .self__heading {
+        padding: 50px 10px 0;
+        text-align: center;
+    }
+}

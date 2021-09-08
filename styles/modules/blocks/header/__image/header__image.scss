@@ -1,4 +1,21 @@
 .header__image {
-    width: 780px;
+    width: 100%;
     height: 652px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1280px) {
+    .header__image {
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .header__image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: .2;
+        width: 50%;
+    }
 }

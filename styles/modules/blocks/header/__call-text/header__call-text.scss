@@ -5,3 +5,34 @@
     width: 407px;
     padding-right: 21px;
 }
+
+@media screen and (max-width: 1280px) {
+    .header__call-text {
+        width: auto;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header__call-text {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .header__call-text {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .header__call-text {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__call-text {
+        width: 100%;
+    }
+}

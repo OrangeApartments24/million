@@ -15,3 +15,9 @@
     left: 320px;
     background: rgba(28, 28, 28, 0.25);
 }
+
+@media screen and (max-width: 1200px) {
+    .credit__caption:after {
+        display: none;
+    }
+}

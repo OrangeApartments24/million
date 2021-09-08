@@ -16,3 +16,12 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+@media screen and (max-width: 560px) {
+    .old__list-element::before {
+        left: -23px;
+        top: 9px;
+        width: 20px;
+        height: 16px;
+    }
+}

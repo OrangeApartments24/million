@@ -1,8 +1,26 @@
 .contract {
+    margin: 0 auto;
     max-width: $containerWidth;
-    padding: 0 ;
     box-sizing: border-box;
     display: flex;
     padding: 211px $sideOffset 0 $sideOffset + 2;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1280px) {
+    .contract {
+        padding: 211px $sideOffsetMedium 0 $sideOffsetMedium;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contract {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .contract {
+        padding: 120px $sideOffsetSmall 0 $sideOffsetSmall;
+    }
 }

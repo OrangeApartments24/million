@@ -1,8 +1,28 @@
 .self {
+    margin: 0 auto;
     max-width: $containerWidth;
     padding: 94px 0 155px $sideOffset;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+@media screen and (max-width: 1280px) {
+    .self {
+        padding: 100px $sideOffsetMedium;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .self {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .self {
+        padding: 70px 0;
+    }
 }

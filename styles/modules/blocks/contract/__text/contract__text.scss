@@ -4,3 +4,15 @@
     font-weight: 300;
     padding: 41px 0 49px 4px;
 }
+
+@media screen and (max-width: 1110px) {
+    .contract__text {
+        @include paragraph-small;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .contract__text {
+        padding-bottom: 30px;
+    }
+}

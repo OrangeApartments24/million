@@ -2,3 +2,9 @@
     padding-left: 77px;
     width: 100%;
 }
+
+@media screen and (max-width: 1280px) {
+    .credit__infographic {
+        padding-left: 0px;
+    }
+}

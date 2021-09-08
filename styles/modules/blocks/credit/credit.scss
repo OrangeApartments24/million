@@ -1,6 +1,27 @@
 .credit {
+    margin: 0 auto;
     max-width: $containerWidth;
-    padding: 0 $sideOffset 134px;
+    padding: 50px $sideOffset 134px;
     display: flex;
     justify-content: flex-start;
+}
+
+@media screen and (max-width: 1280px) {
+    .credit {
+        padding: 50px $sideOffsetMedium 134px;
+        align-items: flex-end;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .credit {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .credit {
+        padding: 40px $sideOffsetSmall 80px;
+    }
 }

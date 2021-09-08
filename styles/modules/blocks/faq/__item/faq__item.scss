@@ -13,3 +13,9 @@
 .faq__item:hover {
     background: rgba(240, 133, 26, .05);
 }
+
+@media screen and (max-width: 560px) {
+    .faq__item {
+        padding: 27px 40px 5px;
+    }
+}

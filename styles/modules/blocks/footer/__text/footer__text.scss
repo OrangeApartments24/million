@@ -5,3 +5,9 @@
     line-height: 30px;
     padding: 39px 0 0;
 }
+
+@media screen and (max-width: 660px) {
+    .footer__text {
+        padding: 20px 0 0;
+    }
+}

@@ -5,3 +5,17 @@
     grid-gap: 22px 39px;
     padding: 42px 0 0 15px;
 }
+
+@media screen and (max-width: 1439px) {
+    .credit__infographic-grid {
+        grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+        grid-gap: 22px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .credit__infographic-grid {
+        padding-left: 0;
+    }
+}

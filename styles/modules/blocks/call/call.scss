@@ -1,6 +1,6 @@
 .call {
     margin: 194px auto 168px;
-    width: $maxWidth;
+    max-width: $maxWidth;
     border-radius: 15px;
     background: #FFFAF5;
     border: 1px solid $primaryColor;
@@ -9,4 +9,25 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+@media screen and (max-width: 1280px) {
+    .call {
+        margin: 194px $sideOffsetMedium 168px;
+        padding: 61px $sideOffsetMedium 21px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .call {
+        margin: 150px $sideOffsetSmall 140px;
+        padding: 61px $sideOffsetSmall 21px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .call {
+        margin: 120px 5px 120px;
+        padding: 61px 5px 21px;
+    }
 }

@@ -17,3 +17,9 @@
     left: -16px;
     top: 16px;
 }
+
+@media screen and (max-width: 960px) {
+    .safety__list-element {
+        @include paragraph-small;
+    }
+}

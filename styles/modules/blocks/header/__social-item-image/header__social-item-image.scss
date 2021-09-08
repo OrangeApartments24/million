@@ -2,3 +2,9 @@
     height: 36px;
     width: auto;
 }
+
+@media screen and (max-width: 560px) {
+    .header__social-item-image {
+        height: 24px;
+    }
+}

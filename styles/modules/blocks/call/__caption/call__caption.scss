@@ -2,3 +2,9 @@
     @include paragraph-tiny;
     color: rgba(240, 133, 26, .5);
 }
+
+@media screen and (max-width: 380px) {
+    .call__caption {
+        text-align: center;
+    }
+}

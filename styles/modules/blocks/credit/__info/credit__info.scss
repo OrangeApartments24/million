@@ -3,3 +3,9 @@
     padding-top: 51px;
     flex-shrink: 0;
 }
+
+@media screen and (max-width: 720px) {
+    .credit__info {
+        width: 100%;
+    }
+}

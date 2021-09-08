@@ -2,3 +2,15 @@
     @include heading-2;
     color: $primaryColor;
 }
+
+@media screen and (max-width: 1280px) {
+    .safety__heading {
+        @include heading-2-medium;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .safety__heading {
+        @include heading-2-small;
+    }
+}

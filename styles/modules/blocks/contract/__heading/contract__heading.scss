@@ -2,3 +2,15 @@
     @include heading-2;
     color: $primaryColor;
 }
+
+@media screen and (max-width: 1110px) {
+    .contract__heading {
+        @include heading-2-medium;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .contract__heading {
+        @include heading-2-small;
+    }
+}

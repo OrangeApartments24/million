@@ -26,3 +26,19 @@
 .call__textfield:focus {
     border-color: rgba(240, 133, 26, .5);;
 }
+
+@media screen and (max-width: 1280px) {
+    .call__textfield {
+        min-width: auto;
+        margin-right: 0px;
+    }
+    .call__textfield:last-of-type {
+         margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .call__textfield {
+        min-width: 100%;
+    }
+}
