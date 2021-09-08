@@ -6,10 +6,17 @@
     color: $secondaryColor;
     top: 72px;
     font-weight: 300;
+    text-underline-offset: 2px;
+    text-decoration-color: rgba(0,0,0, .2);
+    transition: opacity .2s ease-in;
 }
 
 @media screen and (max-width: 560px) {
     .self__slider-caption {
         top: 54px;
     }
+}
+
+.self__slider-caption:hover {
+    opacity: .6;
 }

@@ -3,6 +3,7 @@
     height: 533px;
     object-fit: cover;
     flex-shrink: 0;
+    transition: transform .5s cubic-bezier(0.560, -0.010, 0.070, 1.020);
 }
 
 @media screen and (max-width: 1320px) {
