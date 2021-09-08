@@ -54,7 +54,7 @@ buttonPrevSlide.addEventListener('click', () => moveSlide('prev'));
 
 faqItems.forEach((el) => {
     el.addEventListener('click', (e) => {
-        e.currentTarget.classList.toggle('faq__item_opened');
+        e.currentTarget.querySelector('.faq__item-heading').classList.toggle('faq__item-heading_opened');
         e.currentTarget.querySelector('.faq__item-text').classList.toggle('faq__item-text_opened');
     })
 })

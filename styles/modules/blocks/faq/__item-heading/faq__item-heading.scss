@@ -1,5 +1,31 @@
 .faq__item-heading {
     @include heading-3;
     color: $primaryColor;
-    padding-bottom: 20px;
+    padding: 0px 25px;
+    position: relative;
+}
+
+.faq__item-heading::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: url('../images/faq/__item-heading/treeangle.svg');
+    position: absolute;
+    left: 0px;
+    top: 9px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-90deg);
+    transition: transform .2s ease-out;
+    opacity: .4;
+}
+
+@media screen and (max-width: 560px) {
+    .faq__item-heading {
+        padding: 0px 21px;
+    }
+    .faq__item-heading::before {
+        left: -3px;
+    }
 }

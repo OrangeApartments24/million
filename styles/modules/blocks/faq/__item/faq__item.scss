@@ -1,6 +1,6 @@
 .faq__item {
     border-bottom: 1px solid $primaryColor;
-    padding: 26px 2px 7px;
+    padding: 20px 30px 18px;
     cursor: pointer;
     transition: all .1s ease-out;
     overflow: hidden;
@@ -16,6 +16,6 @@
 
 @media screen and (max-width: 560px) {
     .faq__item {
-        padding: 27px 40px 5px;
+        padding: 20px 30px 18px;
     }
 }
